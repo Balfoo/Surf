@@ -1,0 +1,50 @@
+.contact {
+  &__inside {
+    max-width: 600px;
+    margin: auto;
+  }
+
+  &__title {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0;
+
+    @include xsmin {
+      font-size: 4em;
+    }
+  }
+
+  &__intro {
+    font-size: 1.2em;
+    line-height: 1.5;
+    transition-delay: 0.2s;
+  }
+
+  &__man {
+    display: block;
+    max-width: 400px;
+    margin: auto;
+  }
+  &__form {
+    margin-top: -70px;
+    @include xsmin {
+      margin-top: -120px;
+    }
+    input,
+    textarea {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 16px;
+      border: none;
+      border-radius: 3px;
+    }
+    label {
+      font-size: 1.2em;
+      margin-bottom: 5px;
+      display: block;
+    }
+    button {
+      border: none;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+#transition-overlay-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  opacity: 0;
+  transform-origin: top left;
+  transform: scale(0.4, 0.4) translate3d(-50%, -50%, 0);
+  transition: transform 0.5s ease 0.3s, opacity 0.5s ease 0.3s;
+}
+// do magic !
